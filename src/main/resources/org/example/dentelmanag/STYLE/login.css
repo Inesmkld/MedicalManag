@@ -1,0 +1,51 @@
+.login_container {
+  -fx-background-color:#EEEEEE;
+}
+
+/* logo container style */
+.login_logo_container {
+  -fx-background-color:#abc4ff;
+  -fx-alignment:center;
+}
+
+.login_logo_container Text {
+  -fx-font-size:2em;
+  -fx-fill:#FFFFFF;
+}
+
+.login_logo_container FontAwesomeIconView {
+  -fx-fill:#FFFFFF;
+}
+
+/*login form styles*/
+.login_from_container {
+  -fx-spacing:15;
+  -fx-alignment:center;
+}
+
+
+.login_from_container Label{
+  -fx-font-size:1.1em;
+  -fx-font-weight:bold;
+}
+
+.input_field {
+  -fx-background-color:#FFFFFF;
+  -fx-pref-width:35;
+  -fx-font-size:1.2em;
+}
+
+.login_from_container Button {
+  -fx-background-color:#abc4ff;
+  -fx-text-fill:#FFFFFF;
+  -fx-font-weight:bold;
+  -fx-pref-width:350;
+  -fx-pref-height:30;
+  -fx-font-size:1.3em;
+}
+
+.login_from_container Button:hover {
+  -fx-cursor:hand;
+}
+
+
